@@ -7,4 +7,5 @@ fi
 echo "Starting chromedriver..."
 /usr/bin/chromedriver \
   --allowed-ips='' \
+  --allowed-origins='*' \
   ${CHR_OPTS}
