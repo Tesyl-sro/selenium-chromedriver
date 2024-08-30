@@ -8,4 +8,5 @@ echo "Starting chromedriver..."
 /usr/bin/chromedriver \
   --allowed-ips='' \
   --allowed-origins='*' \
+  --port=8888
   ${CHR_OPTS}
